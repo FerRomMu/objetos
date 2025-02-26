@@ -1,3 +1,3 @@
-from objetos import MEMORIZADOR
+from objetos.objetos import MEMORIZADOR
 
 __all__ = ['MEMORIZADOR']
