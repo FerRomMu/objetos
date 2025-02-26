@@ -1,3 +1,3 @@
-from objetos.objetos import MEMORIZADOR
+from objetos.objetos import MEMORIZADOR, SOLICITADOR, ANALIZADOR_TEXTO, CALCULADORA
 
-__all__ = ['MEMORIZADOR']
+__all__ = ['MEMORIZADOR', 'SOLICITADOR', 'ANALIZADOR_TEXTO', 'CALCULADORA']
