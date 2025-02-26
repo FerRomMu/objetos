@@ -7,7 +7,7 @@ class Calculadora():
         """
         return n + n2
     
-    def resta(self, n: int, n2: int) -> int:
+    def restar(self, n: int, n2: int) -> int:
         """
         Necesito 2 números. Respondo con la resta de esos dos números.
         """
@@ -98,7 +98,7 @@ class AnalizadorTexto:
             return ""
         return max(palabras, key=len)
     
-    def cantidad_de_letras(texto: str) -> int:
+    def cantidad_de_letras(self, texto: str) -> int:
         """Te respondo con la cantidad de caracteres que hay en el texto (contando incluso los espacios). Necesito un String del texto."""
         return len(texto)
     
