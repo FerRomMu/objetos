@@ -30,5 +30,8 @@ class Memoria():
             return self.memoria[posicion]
         except:
             return None
+    
+    def saluda_a_la_clase(self) -> None:
+        print("Hola. Soy un objeto que sabe memorizar y mostrar cosas memorizadas. Podes hablarme diciendo: recordar(algo a recordar), nombrar_objeto(un numero de orden) o devolver_objeto(un numero de orden).")
 
 MEMORIZADOR = Memoria()
