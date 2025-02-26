@@ -1,4 +1,3 @@
-from .query_result import QueryResult
-from .multiquery_result import MultiQueryResult
+from objetos import MEMORIZADOR
 
-__all__ = ['QueryResult', 'MultiqueryResult']
+__all__ = ['MEMORIZADOR']
